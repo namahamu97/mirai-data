@@ -1,0 +1,107 @@
+body {
+    background-image: url("ryouri245.png");
+    background-repeat: repeat-y;
+}
+
+.haikei {
+    background-color: #F9F2DE;
+    width: 800px;
+    height: 1850px;
+    position: relative;
+    /* right: 0;
+    left: 0;
+    margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-flame {
+    position: absolute;
+    top: 72px;
+    left: 72px;
+}
+
+.title {
+    position: absolute;
+    top: 128px;
+    left: 184px;
+}
+
+.setsumei {
+    position: absolute;
+    top: 265px;
+    left: 79px;
+}
+
+.button1 {
+    position: absolute;
+    top: 414px;
+    left: 84px;
+}
+
+.button2 {
+    position: absolute;
+    top: 414px;
+    left: 400px;
+}
+
+.flame {
+    width: 623px;
+    height: 1203px;
+    position: absolute;
+    top: 463px;
+    left: 84px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+.sen1 {
+    position: absolute;
+    top: 421px;
+    left: 159px;
+}
+
+.sen2 {
+    position: absolute;
+    top: 421px;
+    left: 475px;
+}
+
+.today {
+    background-color: #E98E65;
+    width: 499px;
+    height: 42px;
+    position: absolute;
+    top: 514px;
+    left: 152px;
+    text-align: center;
+}
+
+.input {
+    background-color: #F9F2DE;
+    width: 499px;
+    height: 190px;
+    position: absolute;
+    top: 552px;
+    left: 152px;
+}
+
+.input1 {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.input3 {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.input5 {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
