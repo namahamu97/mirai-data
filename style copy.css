@@ -60,10 +60,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.zenmen {
-        width: 159px;
-    }
-
 .sen1 {
     position: absolute;
     top: 421px;
@@ -265,6 +261,10 @@ body {
         border-style: solid;
         border-color: #000000;
         background-color: #FFFFFF;
+    }
+    
+    .zenmen {
+        width: 159px;
     }
 
     .sen1 {
