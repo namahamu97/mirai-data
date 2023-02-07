@@ -1,0 +1,419 @@
+/*
+@media以外の所は全てのサイズで読み込まれます。
+*/
+body {
+    background-image: url("ryouri245.png");
+    background-repeat: repeat-y;
+}
+
+.haikei {
+    background-color: #F9F2DE;
+    width: 800px;
+    height: 2800px;
+    position: relative;
+    /* right: 0;
+            left: 0;
+            margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-flame {
+    position: absolute;
+    top: 72px;
+    left: 72px;
+}
+
+.title {
+    position: absolute;
+    top: 128px;
+    left: 184px;
+}
+
+.setsumei {
+    position: absolute;
+    top: 265px;
+    left: 79px;
+}
+
+.button1 {
+    position: absolute;
+    top: 414px;
+    left: 84px;
+}
+
+.button2 {
+    position: absolute;
+    top: 414px;
+    left: 400px;
+}
+
+.flame {
+    width: 623px;
+    height: 2200px;
+    position: absolute;
+    top: 463px;
+    left: 84px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+.sen1 {
+    position: absolute;
+    top: 421px;
+    left: 196px;
+}
+
+.sen2 {
+    position: absolute;
+    top: 421px;
+    left: 489px;
+}
+
+.question1 {
+    width: 517px;
+    height: 53px;
+    position: absolute;
+    top: 511px;
+    left: 142px;
+    background-color: #E98E65;
+}
+
+.question2 {
+    width: 517px;
+    height: 53px;
+    position: absolute;
+    top: 1800px;
+    left: 142px;
+    background-color: #E98E65;
+}
+
+.youbi {
+    width: 517px;
+    position: absolute;
+    top: 1220px;
+    left: 142px;
+}
+
+.ans1 {
+    position: absolute;
+    top: 564px;
+    left: 142px;
+}
+
+.kaisetsu1 {
+    position: absolute;
+    top: 1040px;
+    left: 145px;
+}
+
+.kaisetsu2 {
+    position: absolute;
+    top: 1620px;
+    left: 145px;
+}
+
+.kaisetsu3 {
+    position: absolute;
+    top: 2300px;
+    left: 145px;
+}
+
+/*------ スライダーの横幅 ------*/
+.slider {
+    width: 517px;
+    position: absolute;
+    top: 580px;
+    left: 142px;
+}
+
+/*------ スライダー画像 ------*/
+.slider img {
+    width: 100%;
+}
+
+/*-------- 高さ調整 ----------*/
+.slider .slick-slide {
+    height: auto !important;
+}
+
+/*---------- 矢印 ----------*/
+.slider .slick-next {
+    right: -40px;
+}
+
+.slider .slick-prev {
+    left: -40px !important;
+}
+
+.slider .slick-arrow {
+    width: initial !important;
+    height: initial !important;
+    z-index: 2 !important;
+}
+
+.slider .slick-arrow:before {
+    font-size: 30px !important;
+    color: rgb(91, 91, 91) !important;
+}
+
+.slider {
+    width: 517px;
+    position: absolute;
+    top: 580px;
+    left: 142px;
+}
+
+/*------ スライダーの横幅 ------*/
+.slider1 {
+    width: 517px;
+    position: absolute;
+    top: 1440px;
+    left: 142px;
+}
+
+/*------ スライダー画像 ------*/
+.slider1 img {
+    width: 100%;
+}
+
+/*-------- 高さ調整 ----------*/
+.slider1 .slick-slide {
+    height: auto !important;
+}
+
+/*---------- 矢印 ----------*/
+.slider1 .slick-next {
+    right: -40px;
+}
+
+.slider1 .slick-prev {
+    left: -40px !important;
+}
+
+.slider1 .slick-arrow {
+    width: initial !important;
+    height: initial !important;
+    z-index: 2 !important;
+}
+
+.slider1 .slick-arrow:before {
+    font-size: 30px !important;
+    color: rgb(91, 91, 91) !important;
+}
+
+@media screen and (max-width:768px) {
+
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+
+}
+
+@media screen and (max-width:480px) {
+
+    .haikei {
+        background-color: #F9F2DE;
+        width: 400px;
+        height: 1400px;
+        position: relative;
+        /* right: 0;
+        left: 0;
+        margin: auto; */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .title-flame {
+        position: absolute;
+        top: 36px;
+        left: 36px;
+        width: 328px;
+    }
+
+    .title {
+        position: absolute;
+        top: 64px;
+        left: 92px;
+        width: 216px;
+    }
+
+    .setsumei {
+        position: absolute;
+        top: 132px;
+        left: 39px;
+        width: 321px;
+    }
+
+    .button1 {
+        position: absolute;
+        top: 207px;
+        left: 42px;
+    }
+
+    .button2 {
+        position: absolute;
+        top: 207px;
+        left: 200px;
+    }
+
+    .flame {
+        width: 311px;
+        height: 1100px;
+        position: absolute;
+        top: 231px;
+        left: 42px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #000000;
+        background-color: #FFFFFF;
+    }
+
+    .zenmen {
+        width: 159px;
+    }
+
+    .sen1 {
+        position: absolute;
+        top: 210px;
+        left: 98px;
+        height: 16px;
+    }
+
+    .sen2 {
+        position: absolute;
+        top: 210px;
+        left: 244px;
+        height: 16px;
+    }
+
+    .question1 {
+        width: 258px;
+        height: 26px;
+        position: absolute;
+        top: 255px;
+        left: 72px;
+        background-color: #E98E65;
+        font-size: 8px;
+    }
+
+    .question2 {
+        width: 258px;
+        height: 26px;
+        position: absolute;
+        top: 900px;
+        left: 72px;
+        background-color: #E98E65;
+        font-size: 8px;
+    }
+
+    .youbi {
+        width: 258px;
+        position: absolute;
+        top: 610px;
+        left: 72px;
+    }
+
+    .ans1 {
+        position: absolute;
+        top: 282px;
+        left: 72px;
+    }
+
+    .kaisetsu1 {
+        position: absolute;
+        top: 520px;
+        left: 72px;
+        font-size: 8px;
+    }
+
+    .kaisetsu2 {
+        position: absolute;
+        top: 810px;
+        left: 72px;
+        font-size: 8px;
+    }
+
+    .kaisetsu3 {
+        position: absolute;
+        top: 1150px;
+        left: 72px;
+        font-size: 8px;
+    }
+
+    /*------ スライダーの横幅 ------*/
+    .slider {
+        width: 258px;
+        position: absolute;
+        top: 290px;
+        left: 72px;
+    }
+
+    /*------ スライダー画像 ------*/
+    .slider img {
+        width: 100%;
+    }
+
+    /*-------- 高さ調整 ----------*/
+    .slider .slick-slide {
+        height: auto !important;
+    }
+
+    /*---------- 矢印 ----------*/
+    .slider .slick-next {
+        right: -20px;
+    }
+
+    .slider .slick-prev {
+        left: -20px !important;
+    }
+
+    .slider .slick-arrow {
+        width: initial !important;
+        height: initial !important;
+        z-index: 2 !important;
+    }
+
+    .slider .slick-arrow:before {
+        font-size: 20px !important;
+        color: rgb(91, 91, 91) !important;
+    }
+
+    /*------ スライダーの横幅 ------*/
+    .slider1 {
+        width: 258px;
+        position: absolute;
+        top: 710px;
+        left: 72px;
+    }
+
+    /*------ スライダー画像 ------*/
+    .slider1 img {
+        width: 100%;
+    }
+
+    /*-------- 高さ調整 ----------*/
+    .slider1 .slick-slide {
+        height: auto !important;
+    }
+
+    /*---------- 矢印 ----------*/
+    .slider1 .slick-next {
+        right: -20px;
+    }
+
+    .slider1 .slick-prev {
+        left: -20px !important;
+    }
+
+    .slider1 .slick-arrow {
+        width: initial !important;
+        height: initial !important;
+        z-index: 2 !important;
+    }
+
+    .slider1 .slick-arrow:before {
+        font-size: 20px !important;
+        color: rgb(91, 91, 91) !important;
+    }
+}
