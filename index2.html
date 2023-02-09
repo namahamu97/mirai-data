@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style copy.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <title>喫茶未来データ分析まとめ</title>
+</head>
+
+
+
+<body>
+    <div class="haikei">
+
+        <img src="choho.png" alt="" class="title-flame">
+        <img src="matome.png" alt="" class="title">
+
+        <img src="imamade.png" alt="" class="setsumei">
+
+        <a href="index.html" class="button1"><img src="zenmen2.png" alt="" class="zenmen"></a>
+        <a href="index2.html" class="button2"><img src="zenmen1.png" alt="" class="zenmen"></a>
+        <img src="総合分析.png" alt="" class="sen1">
+        <img src="こまかく分析.png" alt="" class="sen2">
+        <div class="flame"></div>
+        <div class="question1">
+            <p>曜日ごとの売上を見る</p>
+        </div>
+
+        <div class="slider">
+            <div><img src="Monday.png"></div>
+            <div><img src="Tuesday.png"></div>
+            <div><img src="Wednesday.png"></div>
+            <div><img src="Thursday.png"></div>
+            <div><img src="Friday.png"></div>
+            <div><img src="Saturday.png"></div>
+        </div>
+
+        <div class="kaisetsu1">
+            <p>
+                横軸：月<br>
+                縦軸：その月の特定の曜日の売上平均(4月～11月)<br><br>
+                上下に出ている線：ばらつき<br>
+                上下に出ている線はばらつきを表していて、線が長ければ長いほど<br>
+                ばらつきがあるといえます。
+            </p>
+        </div>
+
+        <img src="youbi.png" alt="" class="youbi">
+
+        <div class="kaisetsu2">
+            <p>
+                横軸：曜日<br>
+                縦軸：その曜日の売上の平均(4月～11月)<br><br>
+                上下に出ている線：ばらつき<br>
+                こちらも上下に出ている線はばらつきを表していて、<br>
+                線が長ければ長いほどばらつきがあります。
+            </p>
+        </div>
+
+        <div class="question2">
+            <p>日替わり定食について見る</p>
+        </div>
+
+        <div class="slider1">
+            <div><img src="国別日替わり.png"></div>
+            <div><img src="材料別日替わり.png"></div>
+        </div>
+
+        <div class="kaisetsu3">
+            <p>
+                ＜ピンクのグラフ＞<br>
+                横軸：どこの国の料理か<br>
+                縦軸：全注文に対する日替わり定食の割合<br><br>
+                ＜水色のグラフ＞<br>
+                横軸：日替わり定食のメインで使われている食材<br>
+                縦軸：全注文に対する日替わり定食の割合<br><br>
+                日替わり定食について国ごと、食材ごとに分けてグラフにしました。<br>
+                そもそも用意している量が違うとのことだったので、売上個数ではなく<br>
+                全注文に対して日替わり定食の注文が占める割合を示しました。<br>
+
+            </p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $('.slider').slick({
+            // autoplay: true,       //自動再生
+            // autoplaySpeed: 2000,  //自動再生のスピード
+            speed: 800,           //スライドするスピード
+            dots: true,           //スライド下のドット
+            arrows: true,         //左右の矢印
+            infinite: true,       //永久にループさせる
+        });
+
+        $('.slider1').slick({
+            // autoplay: true,       //自動再生
+            // autoplaySpeed: 2000,  //自動再生のスピード
+            speed: 800,           //スライドするスピード
+            dots: true,           //スライド下のドット
+            arrows: true,         //左右の矢印
+            infinite: true,       //永久にループさせる
+        });
+    </script>
+
+
+
+</body>
+
+</html>

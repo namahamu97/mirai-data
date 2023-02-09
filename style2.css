@@ -1,0 +1,327 @@
+/*
+@media以外の所は全てのサイズで読み込まれます。
+*/
+* {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+body {
+    background-image: url("ryouri245.png");
+    background-repeat: repeat-y;
+}
+
+.haikei {
+    background-color: #F9F2DE;
+    width: 800px;
+    height: 3050px;
+    position: relative;
+    /* right: 0;
+            left: 0;
+            margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-flame {
+    position: absolute;
+    top: 72px;
+    left: 72px;
+}
+
+.title {
+    position: absolute;
+    top: 128px;
+    left: 184px;
+}
+
+.setsumei {
+    position: absolute;
+    top: 265px;
+    left: 79px;
+}
+
+.button1 {
+    position: absolute;
+    top: 414px;
+    left: 84px;
+}
+
+.button2 {
+    position: absolute;
+    top: 414px;
+    left: 400px;
+}
+
+.flame {
+    width: 623px;
+    height: 2500px;
+    position: absolute;
+    top: 463px;
+    left: 84px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+.sen1 {
+    position: absolute;
+    top: 421px;
+    left: 196px;
+}
+
+.sen2 {
+    position: absolute;
+    top: 421px;
+    left: 489px;
+}
+
+.question1 {
+    width: 517px;
+    height: 53px;
+    position: absolute;
+    top: 511px;
+    left: 142px;
+    background-color: #E98E65;
+}
+
+.question2 {
+    width: 517px;
+    height: 53px;
+    position: absolute;
+    top: 2030px;
+    left: 142px;
+    background-color: #E98E65;
+}
+
+iframe {
+    width: 930px;
+    height: 650px;
+    position: absolute;
+    top: 590px;
+    left: 100px;
+    transform: scale(0.64);
+    transform-origin: 0 0;
+}
+
+.kaisetsu {
+    position: absolute;
+    top: 1000px;
+    left: 145px;
+}
+
+.kaisetsu1 {
+    position: absolute;
+    top: 2450px;
+    left: 145px;
+}
+
+.kaisetsu2 {
+    position: absolute;
+    top: 2830px;
+    left: 145px;
+}
+
+.kaisetsu3 {
+    position: absolute;
+    top: 1920px;
+    left: 145px;
+}
+
+.seikaku {
+    width: 500px;
+    position: absolute;
+    top: 1630px;
+    left: 145px;
+}
+
+.youin {
+    position: absolute;
+    top: 1330px;
+    left: 161px;
+}
+
+.omomi1 {
+    width: 500px;
+    position: absolute;
+    top: 2100px;
+    left: 150px;
+}
+
+.omomi2 {
+    width: 500px;
+    position: absolute;
+    top: 2550px;
+    left: 150px;
+}
+
+@media screen and (max-width:768px) {
+
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+
+}
+
+@media screen and (max-width:480px) {
+
+    .haikei {
+        background-color: #F9F2DE;
+        width: 400px;
+        height: 1525px;
+        position: relative;
+        /* right: 0;
+        left: 0;
+        margin: auto; */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .title-flame {
+        position: absolute;
+        top: 36px;
+        left: 36px;
+        width: 328px;
+    }
+
+    .title {
+        position: absolute;
+        top: 64px;
+        left: 92px;
+        width: 216px;
+    }
+
+    .setsumei {
+        position: absolute;
+        top: 132px;
+        left: 39px;
+        width: 321px;
+    }
+
+    .button1 {
+        position: absolute;
+        top: 207px;
+        left: 42px;
+    }
+
+    .button2 {
+        position: absolute;
+        top: 207px;
+        left: 200px;
+    }
+
+    .flame {
+        width: 311px;
+        height: 1250px;
+        position: absolute;
+        top: 231px;
+        left: 42px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #000000;
+        background-color: #FFFFFF;
+    }
+
+    .zenmen {
+        width: 159px;
+    }
+
+    .sen1 {
+        position: absolute;
+        top: 210px;
+        left: 98px;
+        height: 16px;
+    }
+
+    .sen2 {
+        position: absolute;
+        top: 210px;
+        left: 244px;
+        height: 16px;
+    }
+
+    .question1 {
+        width: 258px;
+        height: 26px;
+        position: absolute;
+        top: 255px;
+        left: 72px;
+        background-color: #E98E65;
+        font-size: 8px;
+    }
+
+    .question2 {
+        width: 258px;
+        height: 26px;
+        position: absolute;
+        top: 1015px;
+        left: 72px;
+        background-color: #E98E65;
+        font-size: 8px;
+    }
+
+    iframe {
+        width: 930px;
+        height: 650px;
+        position: absolute;
+        top: 295px;
+        left: 50px;
+        transform: scale(0.32);
+        transform-origin: 0 0;
+    }
+
+    .kaisetsu {
+        position: absolute;
+        top: 500px;
+        left: 73px;
+        font-size: 8px;
+    }
+
+    .kaisetsu1 {
+        position: absolute;
+        top: 1225px;
+        left: 73px;
+        font-size: 8px;
+    }
+
+    .kaisetsu2 {
+        position: absolute;
+        top: 1415px;
+        left: 73px;
+        font-size: 8px;
+    }
+
+    .kaisetsu3 {
+        position: absolute;
+        top: 960px;
+        left: 73px;
+        font-size: 8px;
+    }
+
+    .seikaku {
+        width: 250px;
+        position: absolute;
+        top: 815px;
+        left: 73px;
+    }
+
+    .youin {
+        position: absolute;
+        top: 665px;
+        left: 80px;
+        width: 241px;
+    }
+
+    .omomi1 {
+        width: 250px;
+        position: absolute;
+        top: 1050px;
+        left: 75px;
+    }
+
+    .omomi2 {
+        width: 250px;
+        position: absolute;
+        top: 1275px;
+        left: 75px;
+    }
+
+}

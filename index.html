@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <title>喫茶未来データ分析まとめ</title>
+</head>
+
+<body>
+    <div class="haikei">
+        <img src="choho.png" alt="" class="title-flame">
+        <img src="matome.png" alt="" class="title">
+        <img src="imamade.png" alt="" class="setsumei">
+
+        <a href="index.html" class="button1"><img src="zenmen1.png" alt="" class="zenmen"></a>
+        <a href="index2.html" class="button2"><img src="zenmen2.png" alt="" class="zenmen"></a>
+        <img src="総合分析.png" alt="" class="sen1">
+        <img src="こまかく分析.png" alt="" class="sen2">
+        <div class="flame"></div>
+        <div class="question1">
+            <p>売上とさまざまな要因の関係について</p>
+        </div>
+
+        <iframe src="output.html"></iframe>
+
+        <div class="kaisetsu">
+            <p>
+                横軸：日付<br>
+                縦軸：売上個数<br>
+                <br>
+                黒い点：実際の値<br>
+                青い線：予測値<br>
+                青い帯：予測範囲（誤差込み）<br>
+                <br>
+
+                みらいさんから頂いたデータのうち、8割を用いて売り上げ個数とさま<br>
+                ざまな要因を解析し、売り上げの予測ツールを作成しました。そして、<br>
+                残り２割のデータでその正確さを検証しました。<br>
+
+                予測ツールを用いた予測値は青い線、誤差を含めた予測範囲は青い帯で
+                <br>
+                表示しています。<br>
+                <br>
+                <br>
+            </p>
+        </div>
+
+        <img src="グループ 6.png" alt="" class="youin">
+
+        <img src="seikaku.png" alt="" class="seikaku">
+
+        <div class="kaisetsu3">
+            <p>
+                このグラフは先ほどのグラフに赤い点（実際の値）を加えたものです。<br>
+                予測である青い線や帯との合致率を見ると、この予測の正確性が<br>
+                分かります。
+
+            </p>
+        </div>
+
+        <div class="question2">
+            <p>各要因の影響の大きさ</p>
+        </div>
+
+        <img src="omomi1.png" alt="" class="omomi1">
+
+        <div class="kaisetsu1">
+            <p>
+                これらの要因は数値が大きくなればなるほど売上個数を増やしている<br>
+                要因になります。表の数字が大きいほど影響が大きいといえます。
+            </p>
+        </div>
+
+        <img src="omomi2.png" alt="" class="omomi2">
+
+        <div class="kaisetsu2">
+            <p>
+                これらの要因は数値が大きくなればなるほど売上個数を減らしている<br>
+                要因になります。表の数字が大きいほど影響が大きいといえます。
+            </p>
+        </div>
+
+    </div>
+</body>
